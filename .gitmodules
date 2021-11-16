@@ -1,3 +1,15 @@
 [submodule "src/utils"]
 	path = src/utils
 	url = https://github.com/koobh/ptUtils
+[submodule "external/DSFD"]
+	path = external/DSFD
+	url = https://github.com/Tencent/FaceDetection-DSFD.git
+[submodule "external/ULFGFD"]
+	path = external/ULFGFD
+	url = https://github.com/Linzaer/Ultra-Light-Fast-Generic-Face-Detector-1MB
+[submodule "src/yolo5-face"]
+	path = src/yolo5-face
+	url = https://github.com/kooBH/yolov5-face
+[submodule "src/AngularPenalty-Softmax-Losses-Pytorch"]
+	path = src/AngularPenalty-Softmax-Losses-Pytorch
+	url = https://github.com/kooBH/Angular-Penalty-Softmax-Losses-Pytorch

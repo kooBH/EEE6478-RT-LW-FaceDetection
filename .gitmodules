@@ -2,10 +2,10 @@
 	path = src/utils
 	url = https://github.com/koobh/ptUtils
 [submodule "external/DSFD"]
-	path = external/DSFD
+	path = src/DSFD
 	url = https://github.com/Tencent/FaceDetection-DSFD.git
 [submodule "external/ULFGFD"]
-	path = external/ULFGFD
+	path = src/ULFGFD
 	url = https://github.com/Linzaer/Ultra-Light-Fast-Generic-Face-Detector-1MB
 [submodule "src/yolo5-face"]
 	path = src/yolo5-face

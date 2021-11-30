@@ -12,7 +12,6 @@ from utils.hparams import HParam
 from tqdm import tqdm
 
 if __name__ == '__main__':
-
     parser = argparse.ArgumentParser()
     parser.add_argument('-c','--config',type=str,required=True)
     parser.add_argument('-m','--model',type=str,default='./model_ckpt/bestmodel.pth')
@@ -50,7 +49,6 @@ if __name__ == '__main__':
     model.eval()
     print('NOTE::Loading pre-trained model : ' + test_model)
 
-
     with torch.no_grad():
         for i, (data,data_dir,data_name) in enumerate(tqdm(test_loader)):
             # TODO
@@ -68,12 +66,3 @@ if __name__ == '__main__':
 
             ## Save
             torchaudio.save(output_dir+'/'+str(data_dir[0])+'/'+str(data_name[0])+'.wav',src=audio,sample_rate=hp.audio.samplerate)
-
-
-
-
-
-
-
-
-   

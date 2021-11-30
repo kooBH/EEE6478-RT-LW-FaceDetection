@@ -13,3 +13,12 @@
 [submodule "src/AngularPenalty-Softmax-Losses-Pytorch"]
 	path = src/AngularPenalty-Softmax-Losses-Pytorch
 	url = https://github.com/kooBH/Angular-Penalty-Softmax-Losses-Pytorch
+[submodule "src/facenet-pytorch-glint5360k"]
+	path = src/facenet-pytorch-glint5360k
+	url = https://github.com/kooBH/facenet-pytorch-glint360k
+[submodule "src/ETFD"]
+	path = src/ETFD
+	url = https://github.com/kooBH/ETFD
+[submodule "src/EXTD_Pytorch"]
+	path = src/EXTD_Pytorch
+	url = https://github.com/kooBH/EXTD_Pytorch

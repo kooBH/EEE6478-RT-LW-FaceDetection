@@ -1,0 +1,40 @@
+duration : 11.332
+fps : 1000.0
+frame_count : 11332
+width : 1280
+height : 960
+(1, 480, 640, 3)
+(166, 480, 640, 3)
+device : cpu
+64
+init Function
+EXTD64 : 94.63609434860045 sec 
+Fusing layers... 
+21044232
+ YOLOv5m : 51.18826015640006 sec 
+Fusing layers... 
+7064992
+ YOLOv5s : 22.451729802600312 sec 
+Fusing layers... 
+1723584
+ YOLOv5m : 15.911548624699936 sec 
+Fusing layers... 
+446376
+ YOLOv5n-0.5 : 8.099587672900089 sec 
+ haar : 17.829009583399603 sec 
+device : cuda:0
+64
+init Function
+EXTD64 : 6.463565596099943 sec 
+Fusing layers... 
+21044232
+ YOLOv5m : 2.9994475084000443 sec 
+Fusing layers... 
+7064992
+ YOLOv5s : 1.9366806426995027 sec 
+Fusing layers... 
+1723584
+ YOLOv5m : 2.189971481200337 sec 
+Fusing layers... 
+446376
+ YOLOv5n-0.5 : 2.196267753799475 sec 

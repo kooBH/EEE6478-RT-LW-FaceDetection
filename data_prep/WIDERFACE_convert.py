@@ -36,7 +36,6 @@ def generate_label(path_gt,root_img,root_out):
                 if num_face == 0 :
                     state_read = -1
                 else :
-                    data[name]["num_face"] = num_face
                     data[name]["faces"]=[]
                     state_read = 2
             elif state_read == -1 :
@@ -68,6 +67,7 @@ def generate_label(path_gt,root_img,root_out):
                     state_read = 0
                     if detected > 0 :
                         cnt+=1
+                        data[name]["num_face"] = detected
                     else :
                         del data[name]
                     detected = 0

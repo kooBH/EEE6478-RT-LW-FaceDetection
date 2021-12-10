@@ -22,3 +22,9 @@
 [submodule "src/EXTD_Pytorch"]
 	path = src/EXTD_Pytorch
 	url = https://github.com/kooBH/EXTD_Pytorch
+[submodule "src/insightface"]
+	path = src/insightface
+	url = https://github.com/kooBH/insightface.git
+[submodule "src/yolo5face"]
+	path = src/yolo5face
+	url = https://github.com/kooBH/yolov5-face.git

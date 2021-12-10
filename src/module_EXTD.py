@@ -29,10 +29,10 @@ import warnings
 warnings.filterwarnings("ignore")
 
 class module_EXTD :
-    def __init__(self,device):
-        self.net = build_extd('test', cfg.NUM_CLASSES)
-        path = "/home/kbh/EXTD_test/EXTD_Pytorch/EXTD_64_newtorch.pt"
-        print("path : " + path)
+    def __init__(self,device,in_channel=32):
+        self.net = build_extd('test', cfg.NUM_CLASSES,in_channel=in_channel)
+        path = "./EXTD_Pytorch/weights/EXTD_"+str(in_channel)+".pth"
+        #print("path : " + path)
         self.net.load_state_dict(torch.load(path),strict=False)
         
         self.net.eval()
